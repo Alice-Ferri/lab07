@@ -152,19 +152,5 @@ public final class Transformers {
             }
         });
 
-        /*
-         * new Function<I, Collection<? extends I>>() {
-         * 
-         * @Override
-         * public Collection<? extends I> call(final I input) {
-         * if(!test.call(input)){
-         * return List.of(input);
-         * }
-         * 
-         * return List.of();
-         * }
-         * 
-         * });
-         */
     }
 }
